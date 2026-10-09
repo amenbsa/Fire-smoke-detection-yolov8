@@ -1,6 +1,5 @@
-# Fire & Smoke Detection — Firefighter Robot (Kadanova PFE, INSAT)
 
-Computer vision model for real-time fire and smoke detection, developed as part of a search-and-rescue firefighter robot end-of-studies project (PFE) at INSAT, in partnership with Kadanova. The model is intended to run onboard the robot's Raspberry Pi 4 to support autonomous fire localization.
+Computer vision model for real-time fire and smoke detection. The model is intended to run onboard the robot's Raspberry Pi 4 to support autonomous fire localization.
 
 ## Overview
 
