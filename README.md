@@ -73,9 +73,6 @@ This is a meaningfully better result than an earlier, heavier training run (`yol
 - **INT8 export size:** the TFLite INT8 export did not shrink relative to the FP32 checkpoint as expected (12.26 MB vs. 6.25 MB) — under the current Ultralytics/LiteRT export pipeline, this did not produce the typical ~4x size reduction seen in quantization. Flagged as an open issue to investigate (likely an export-pipeline behavior change, not a training issue).
 - **No physical Pi 4 available for this specific checkpoint** — real-time FPS on target hardware was not benchmarked directly for this model. A teammate's earlier fire-detection model (different training run) measured ~1.4 FPS on Pi 4 after INT8 quantization; given this model is smaller (3.0M params vs. their 3.01M-parameter base, similar scale), comparable or better performance is expected but not yet confirmed on hardware.
 
-## Team Context
-
-This model was developed independently as part of a broader team effort on the same firefighter robot project, where teammates explored parallel approaches (including a Pi-deployment-validated model and dataset-balancing work). See the main project repository for the integrated system.
 
 ## Future Work
 
